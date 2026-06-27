@@ -1,0 +1,22 @@
+# MATLAB specific ignores
+*.asv
+*.m~
+*.mat
+*.fig
+*.slx.r*
+*.mdl.r*
+slprj/
+*.mex*
+*.mexa64
+*.mexw32
+*.mexw64
+*.mexmaci64
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
