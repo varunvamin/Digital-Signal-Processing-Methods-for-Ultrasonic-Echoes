@@ -29,12 +29,18 @@ This project implements a simulated environment to generate synthetic ultrasonic
 - MATLAB (R2018a or newer recommended).
 - Signal Processing Toolbox (required for `butter` and `filtfilt` functions).
 
-### Running the Simulation
+### Running the Application (Recommended)
 
 1. Clone this repository.
 2. Open MATLAB and navigate to the repository directory.
-3. Run the `main.m` script.
-4. Observe the console output for SNR comparisons and the generated figure displaying the time-domain signals.
+3. Run the **`run_gui.m`** script.
+4. An interactive window will launch! You can drag the SNR slider at the bottom to dynamically adjust the noise level and watch how the three denoising algorithms perform in real-time.
+
+### Running the Standard Script
+
+If you prefer to see the output in the console and standard MATLAB figures:
+1. Run the `main.m` script.
+2. Observe the console output for SNR comparisons and the generated figure displaying the time-domain signals.
 
 ## Example Results
 
