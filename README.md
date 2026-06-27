@@ -1,5 +1,7 @@
 # Digital Signal Processing Methods for Ultrasonic Echoes
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=varunvamin/Digital-Signal-Processing-Methods-for-Ultrasonic-Echoes)
+
 This repository contains a MATLAB simulation designed for processing and denoising ultrasonic echo signals. Ultrasonic testing often suffers from high levels of measurement noise, and extracting accurate echo features is critical for non-destructive testing (NDT) and medical imaging.
 
 This project implements a simulated environment to generate synthetic ultrasonic pulses, adds white Gaussian noise to model physical conditions, and evaluates the performance of three distinct signal denoising techniques.
