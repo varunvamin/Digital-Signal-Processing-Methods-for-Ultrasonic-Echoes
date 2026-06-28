@@ -1,4 +1,9 @@
-# Digital Signal Processing Methods for Ultrasonic Echoes
+# 🔊 Digital Signal Processing Methods for Ultrasonic Echoes
+
+<p align="left">
+  <img src="https://img.shields.io/badge/MATLAB-e16723?style=for-the-badge&logo=mathworks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Digital_Signal_Processing-000000?style=for-the-badge" />
+</p>
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=varunvamin/Digital-Signal-Processing-Methods-for-Ultrasonic-Echoes)
 
@@ -6,7 +11,7 @@ This repository contains a MATLAB simulation designed for processing and denoisi
 
 This project implements a simulated environment to generate synthetic ultrasonic pulses, adds white Gaussian noise to model physical conditions, and evaluates the performance of three distinct signal denoising techniques.
 
-## Features
+## ✨ Features
 
 - **Signal Simulation**: Generates a synthetic ultrasonic signal consisting of multiple Gaussian-enveloped sinusoidal pulses.
 - **Noise Modeling**: Injects Additive White Gaussian Noise (AWGN) to achieve a target Signal-to-Noise Ratio (SNR).
@@ -16,7 +21,7 @@ This project implements a simulated environment to generate synthetic ultrasonic
   - **Total Variation (TV) Denoising**: Uses a proximal gradient method (Chambolle's algorithm) to preserve sharp transitions while aggressively smoothing flat regions, minimizing the L1 norm of the gradient.
 - **Performance Evaluation**: Computes and compares output SNRs across all methods and provides a comprehensive visual plot.
 
-## Project Structure
+## 📂 Project Structure
 
 - `main.m`: The primary script to run the simulation, apply all filters, calculate SNRs, and generate comparison plots.
 - `simulate_echo.m`: Function for generating the clean and noisy ultrasonic signals.
@@ -24,7 +29,7 @@ This project implements a simulated environment to generate synthetic ultrasonic
 - `tikhonov_regularization.m`: Function implementing Tikhonov denoising.
 - `tv_denoising.m`: Function implementing 1D Total Variation denoising.
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -44,7 +49,7 @@ If you prefer to see the output in the console and standard MATLAB figures:
 1. Run the `main.m` script.
 2. Observe the console output for SNR comparisons and the generated figure displaying the time-domain signals.
 
-## Example Results
+## 📊 Example Results
 
 When running `main.m` with an input SNR of ~5.00 dB, you can expect typical improvements such as:
 
@@ -54,6 +59,6 @@ When running `main.m` with an input SNR of ~5.00 dB, you can expect typical impr
 
 *(Note: Actual values will vary slightly per run due to the random nature of the generated noise).*
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License.
